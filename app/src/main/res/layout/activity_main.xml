@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|end"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="462dp"
+        android:layout_height="7dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/countryPic"
+        android:layout_width="411dp"
+        android:layout_height="147dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/LanguageTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:autoText="false"
+        android:text="Translated Language " />
+
+    <TextView
+        android:id="@+id/InputText"
+        android:layout_width="411dp"
+        android:layout_height="84dp"
+        android:text="Input Language" />
+
+    <TextView
+        android:id="@+id/languageList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Languages" />
+
+    <Button
+        android:id="@+id/Translate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:text="Translate Button" />
+
+</LinearLayout>
